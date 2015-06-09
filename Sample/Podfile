@@ -5,4 +5,4 @@ xcodeproj 'Sample.xcodeproj'
 use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'MaterialDesignSymbol', :git => "https://github.com/tichise/MaterialDesignColor"
+pod 'MaterialDesignColor', :git => "https://github.com/tichise/MaterialDesignColor"
