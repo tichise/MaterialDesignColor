@@ -3,14 +3,6 @@
 
 Color library for Swift. Currently supports GoogleMaterialDesignColor
 
-#### Related products
-
-##### EntypoSymbol
-Icon font library for Swift. Currently supports Entypo
-
-https://github.com/tichise/EntypoSymbol
-
-
 #### Examples
 
 ```html
