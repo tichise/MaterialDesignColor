@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'MaterialDesignColor'
-  s.version = '1.2'
+  s.version = '1.3'
   s.license = 'MIT'
   s.summary = 'Color library for Swift. Currently supports Google Material Design Color'
   s.homepage = 'https://github.com/tichise/MaterialDesignColor'

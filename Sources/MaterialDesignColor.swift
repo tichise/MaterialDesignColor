@@ -5,7 +5,7 @@
 //  Copyright (c) 2015年 Takuya Ichise. All rights reserved.
 //
 
-@objc public class MaterialDesignColor {
+public class MaterialDesignColor {
     
     public static let red50 = Hex.colorFromHex("FFEBEE")
     public static let red100 = Hex.colorFromHex("FFCDD2")
@@ -264,9 +264,9 @@
     public static let blueGrey900 = Hex.colorFromHex("263238")
 }
 
-@objc private class Hex {
+private class Hex {
     private class func colorFromHex(colorCode: String) -> UIColor {
-        var scanner = NSScanner(string:colorCode)
+        let scanner = NSScanner(string:colorCode)
         var color:UInt32 = 0;
         scanner.scanHexInt(&color)
         
