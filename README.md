@@ -17,3 +17,14 @@ textLabel.textColor = MaterialDesignColor.lightGreen400
 
 #### Installation (CocoaPods)
 `pod MaterialDesignColor`
+
+#### Related products
+
+- Font Library
+ - [MaterialDesignSymbol](https://github.com/tichise/MaterialDesignSymbol) Swift
+ - [EntypoSymbol](https://github.com/tichise/EntypoSymbol) Swift
+ - [MaterialDesignSymbolObjC](https://github.com/tichise/MaterialDesignSymbolObjC) ObjectiveC
+ - [EntypoSymbolObjC](https://github.com/tichise/EntypoSymbolObjC) ObjectiveC
+- Color Library
+  - [MaterialDesignColor](https://github.com/tichise/MaterialDesignColor) Swift
+  - [MaterialDesignColorObjC](https://github.com/tichise/MaterialDesignColorObjC) ObjectiveC
