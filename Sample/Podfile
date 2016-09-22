@@ -3,5 +3,5 @@ platform :ios, '9.0'
 target 'Sample' do
   use_frameworks!
 
-  pod 'MaterialDesignColor', :git => "https://github.com/tichise/MaterialDesignColor"
+  pod 'MaterialDesignColor', :git => "https://github.com/tichise/MaterialDesignColor", :branch => 'swift3'
 end
