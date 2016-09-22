@@ -8,14 +8,10 @@ Pod::Spec.new do |s|
   s.author = "Takuya Ichise"
   s.source = { :git => 'https://github.com/tichise/MaterialDesignColor.git', :tag => s.version }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.osx.deployment_target = "10.10"
-  if s.respond_to?(:watchos)
-    s.watchos.deployment_target = "2.0"
-  end
-  if s.respond_to?(:tvos)
-    s.tvos.deployment_target = "9.0"
-  end
+  s.watchos.deployment_target = "2.0"
+  s.tvos.deployment_target = "9.0"
 
   s.source_files = 'Sources/*.swift'
   s.requires_arc = true
