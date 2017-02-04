@@ -21,3 +21,5 @@ DerivedData
 
 # Carthage
 Carthage/Build
+Sample/Podfile.lock
+Sample/Pods/*
