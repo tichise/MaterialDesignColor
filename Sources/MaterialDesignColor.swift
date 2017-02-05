@@ -146,7 +146,7 @@ open class MaterialDesignColor {
     open static let green900 = Hex.colorFromHex("1B5E20")
     open static let greenA100 = Hex.colorFromHex("B9F6CA")
     open static let greenA200 = Hex.colorFromHex("69F0AE")
-    open static let greenA400 = Hex.colorFromHex("0.00E+00")
+    open static let greenA400 = Hex.colorFromHex("00E676")
     open static let greenA700 = Hex.colorFromHex("00C853")
     open static let lightGreen50 = Hex.colorFromHex("F1F8E9")
     open static let lightGreen100 = Hex.colorFromHex("DCEDC8")
