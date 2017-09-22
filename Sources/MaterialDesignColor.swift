@@ -5,7 +5,7 @@
 //  Copyright (c) 2015年 Takuya Ichise. All rights reserved.
 //
 
-open class MaterialDesignColor {
+open class MaterialDesignColor:NSObject {
     
     open static let red50 = Hex.colorFromHex("FFEBEE")
     open static let red100 = Hex.colorFromHex("FFCDD2")
