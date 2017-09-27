@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'MaterialDesignColor'
-  s.version = '2.0.4'
+  s.version = '2.1.0'
   s.license = {
     :type => "MIT",
     :text => <<-LICENSE
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/*.swift'
   s.requires_arc = true
   s.xcconfig = {
-    'SWIFT_VERSION' => '3'
+    'SWIFT_VERSION' => '4'
   }
 
 end
