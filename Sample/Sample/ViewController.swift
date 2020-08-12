@@ -9,8 +9,8 @@ import MaterialDesignColor
 
 class ViewController: UITableViewController {
     
-    @IBOutlet var sampleImageView:UIImageView!
-    @IBOutlet var sampleLabel:UILabel!
+    @IBOutlet var sampleImageView: UIImageView!
+    @IBOutlet var sampleLabel: UILabel!
     
     var colors = [MaterialDesignColor.orange50,
                                   MaterialDesignColor.orange100,
