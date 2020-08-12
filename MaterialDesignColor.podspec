@@ -15,8 +15,10 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://twitter.com/tichise'
   s.author = "Takuya Ichise"
   s.source = { :git => 'https://github.com/tichise/MaterialDesignColor.git', :tag => s.version }
+  s.swift_versions = '5.0'
 
   s.ios.deployment_target = '11.0'
+  s.watchos.deployment_target = "4.0"
 
   s.source_files = 'Sources/*.swift'
   s.requires_arc = true
