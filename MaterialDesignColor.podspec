@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'MaterialDesignColor'
-  s.version = '2.3.2'
+  s.version = '2.3.3'
   s.license = {
     :type => "MIT",
     :text => <<-LICENSE
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
 
   s.ios.deployment_target = '11.0'
-  s.watchos.deployment_target = "4.0"
 
   s.source_files = 'Sources/*.swift'
   s.requires_arc = true
