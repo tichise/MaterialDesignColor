@@ -1,6 +1,6 @@
 #### MaterialDesignColor ![CocoaPods Version](https://img.shields.io/cocoapods/v/MaterialDesignColor.svg?style=flat) ![Platform](https://img.shields.io/cocoapods/p/MaterialDesignColor.svg?style=flat) ![License](https://img.shields.io/cocoapods/l/MaterialDesignColor.svg?style=flat)
 
-<img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/6689/iOS_Simulator_Screen_Shot_2015.06.09_23.45.20.png" width="160px">
+![image](https://user-images.githubusercontent.com/43707/89963217-fa82f600-dc81-11ea-895d-1ec8e1555c30.png)
 
 Color library for Swift. Currently supports [GoogleMaterialDesignColor](https://www.google.com/design/spec/style/color.html)
 
