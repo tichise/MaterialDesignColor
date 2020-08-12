@@ -6,7 +6,29 @@ Color library for Swift. Currently supports [GoogleMaterialDesignColor](https://
 
 MaterialDesignColorはGoogleがマテリアルデザインで推奨しているカラーコードを簡単に呼び出せるiOSライブラリです。 cocoapodsからダウンロードして使えます。使い方は[こちら](http://qiita.com/tichise/items/d6907d95738673e54bd8)に記載してます。
 
-#### Examples
+#### Examples / SwiftUI
+
+```
+import SwiftUI
+import MaterialDesignColor
+
+@available(iOS 13.0.0, *)
+struct SwiftUIView: View {
+    var body: some View {
+        Text("hellow world").background(MaterialDesignColor.red400.suColor)
+    }
+}
+
+@available(iOS 13.0.0, *)
+struct SwiftUIView_Previews: PreviewProvider {
+    static var previews: some View {
+        SwiftUIView()
+    }
+}
+```
+
+#### Examples / UIKit
+
 
 ```html
 import MaterialDesignColor
