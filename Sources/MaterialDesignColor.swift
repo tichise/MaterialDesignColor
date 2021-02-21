@@ -2,7 +2,7 @@
 //  MaterialDesignColor.swift
 //
 
-import Foundation
+import UIKit
 
 public struct MaterialDesignColor {
     
