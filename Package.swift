@@ -4,8 +4,8 @@ import PackageDescription
 
 let package = Package(
     name: "MaterialDesignColor",
-    platforms: [.iOS(.v10),
-                .watchOS(.v3)],
+    platforms: [.iOS(.v13),
+                .watchOS(.v6)],
     products: [
         .library(name: "MaterialDesignColor", targets: ["MaterialDesignColor"])
     ],
