@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'MaterialDesignColor'
-  s.version = '2.3.7'
+  s.version = '2.3.8'
   s.license = {
     :type => "MIT",
     :text => <<-LICENSE
