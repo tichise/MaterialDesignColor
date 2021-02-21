@@ -2,6 +2,8 @@
 //  MaterialDesignColor.swift
 //
 
+import Foundation
+
 public struct MaterialDesignColor {
     
     public static let red50 = colorFromHex("FFEBEE")
