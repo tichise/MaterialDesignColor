@@ -3,18 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "MaterialDesignSymbol",
-    platforms: [.iOS(.v10),
-                .watchOS(.v3)],
+    name: "MaterialDesignColor",
+    platforms: [.iOS(.v13),
+                .watchOS(.v6)],
     products: [
-        .library(name: "MaterialDesignSymbol", targets: ["MaterialDesignSymbol"])
+        .library(name: "MaterialDesignColor", targets: ["MaterialDesignColor"])
     ],
     dependencies: [],
     targets: [
-        .target(name: "MaterialDesignSymbol", 
-                path: "Sources",
-                resources: [
-                    .copy("Resources")])
+        .target(name: "MaterialDesignColor", path: "Sources"),
     ],
     swiftLanguageVersions: [.v5]
 )
